@@ -5,53 +5,74 @@ body {
 }
 
 .calc-body {
-    background-color: #555555;
-    padding: 20px 0px 0px 0px;
+    background-color: #504e53;
     width: 18%;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
 }
 
-.normal-button-operator {
-    font-size: 25px;
-    
-    display: inline-block;
-    background-color: #f2a33c;
-    height: 60px;
-    width: 25%;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 60px;
+.calc-window-buttons {
+    margin-left: 10px;
+    font-size: 0px;
 }
 
-.normal-button {
+.close {
+    color: #ff5f57;
+    font-size: 40px;
+}
+
+.minimise {
+    color: #ffbb2e;
+    font-size: 40px;
+}
+
+.maximise {
+    color: #29c740;
+    font-size: 40px;
+}
+
+
+.button {
+    box-sizing: border-box;
+    border:1px solid #504e53;
     font-size: 25px;
-    width: 25%;
     display: inline-block;
     height: 60px;
+    line-height: 60px;
     color: #fff;
+}
+
+.button.normal {
+    width: 25%;
     background-color: #7d7b7f;
-    margin: 0;
     text-align: center;
-    vertical-align: middle;
-    border-color: #444444;
-    border-width: 5px;
-    line-height: 60px;
 }
 
-.double-button {
+.button.operator {
+    width: 25%;
+    text-align: center;
+    background-color: #f28b0c;
+}
+
+.button.special {
+    background-color: #626065;
     font-size: 25px;
+    width: 25%;
+    text-align: center;
+}
+
+.button.double {
     width: 50%;
-    display: inline-block;
-    height: 60px;
-    color: #fff;
     background-color: #7d7b7f;
-    margin: 0;
     text-align: center;
-    vertical-align: middle;
-    line-height: 60px;
+}
+
+.last-left {
+    border-bottom-left-radius: 10px;
+}
+
+.last-right {
+    border-bottom-right-radius: 10px;
 }
 
 .calc-button-row {
@@ -61,10 +82,9 @@ body {
 .calc-text {
     padding: 10px 0px 10px 0px;
     margin: 0 5px 0 5px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: lighter;
     color: #fff;
     text-align: right;
     width: auto;
 }
-
