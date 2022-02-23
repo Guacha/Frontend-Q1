@@ -4,7 +4,7 @@ body {
 
 .calc-body {
     background-color: #504e53;
-    width: 18%;
+    width: 320px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
 }
@@ -44,8 +44,8 @@ body {
     border:1px solid #504e53;
     font-size: 25px;
     display: inline-block;
-    height: 60px;
-    line-height: 60px;
+    height: 65px;
+    line-height: 65px;
     color: #fff;
 }
 
