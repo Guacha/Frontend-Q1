@@ -1,7 +1,5 @@
 body {
-
     font-family: 'Helvetica', 'Arial', sans-serif;
-
 }
 
 .calc-body {
@@ -9,6 +7,15 @@ body {
     width: 18%;
     border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
+}
+
+.calc-text {
+    margin: 0 10px 0 5px;
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+    text-align: right;
+    width: auto;
 }
 
 .calc-window-buttons {
@@ -77,14 +84,4 @@ body {
 
 .calc-button-row {
     font-size: 0;
-}
-
-.calc-text {
-    padding: 10px 0px 10px 0px;
-    margin: 0 5px 0 5px;
-    font-size: 50px;
-    font-weight: lighter;
-    color: #fff;
-    text-align: right;
-    width: auto;
 }
